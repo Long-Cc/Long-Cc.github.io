@@ -1,6 +1,8 @@
 ---
 layout:     post
 title:      强化 swift 中的 print
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 subtitle:   强化 swift 中的 print 输出函数
 date:       2017-04-07
 author:     Belial
@@ -78,4 +80,6 @@ public func printm(items: Any..., filename: String = #file, function: String = #
 - [《LOG 输出》](http://swifter.tips/log/) - 王巍 (@ONEVCAT)
 
 
-> 本文首次发布于 [BY Blog](http://qiubaiying.github.io), 作者 [BY](http://github.com/qiubaiying) ,转载请保留原文链接.
+> 本文首次发布于 [BY Blog](http://qiubaiying.github.io), 作者 [BY<!-- slide -->
+
+](http://github.com/qiubaiying) ,转载请保留原文链接.
