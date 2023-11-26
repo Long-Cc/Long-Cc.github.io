@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      BYPhoneNumTF
+title:      BelialPhoneNumTF
 subtitle:   一个电话号码格式的文本框
 date:       2017-02-04
-author:     BY
+author:     Belial
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
@@ -11,7 +11,7 @@ tags:
     - 轮子
 ---
 
->**BYPhoneNumTF** 一个电话号码格式的文本框
+>**BelialPhoneNumTF** 一个电话号码格式的文本框
 
 # 功能
 
@@ -197,10 +197,10 @@ tags:
 
 ```
 //
-//  BYPhoneNumTF.h
+//  BelialPhoneNumTF.h
 //
-//  Created by BY on 16/12/2.
-//  Copyright © 2016年 BY. All rights reserved.
+//  Created by Belial on 16/12/2.
+//  Copyright © 2016年 Belial. All rights reserved.
 //  电话号码类型的文本输入框，且只能输入数字
 //  输入显示：137 9922 1234 或 137-9922-1234
 //  使用方法：在XIB中的TextField继承该类即可
@@ -211,7 +211,7 @@ tags:
 // @" " or @"-"
 #define placeholder @" "
 
-@interface BYPhoneNumTF : UITextField
+@interface BelialPhoneNumTF : UITextField
 
 /** 去掉格式的电话号码 */
 @property (nonatomic, strong) NSString *plainPhoneNum;
@@ -221,21 +221,21 @@ tags:
 
 ```
 //
-//  BYPhoneNumTF.m
+//  BelialPhoneNumTF.m
 //  dev-Jack
 //
-//  Created by BY on 16/12/2.
+//  Created by Belial on 16/12/2.
 //  Copyright © 2016年 Jack. All rights reserved.
 //
 
-#import "BYPhoneNumTF.h"
+#import "BelialPhoneNumTF.h"
 
 
-@interface BYPhoneNumTF ()<UITextFieldDelegate>
+@interface BelialPhoneNumTF ()<UITextFieldDelegate>
 
 @end
 
-@implementation BYPhoneNumTF
+@implementation BelialPhoneNumTF
 
 - (NSString *)plainPhoneNum {
     return [self _noneSpaseString:self.text];
@@ -392,6 +392,6 @@ tags:
 
 # 使用方法
 
-在storyboard中的`TextField`控件的Calss类型选择该类`BYPhoneNumTF`即可。
+在storyboard中的`TextField`控件的Calss类型选择该类`BelialPhoneNumTF`即可。
 
-代码及Demo下载地址：[BYPhoneNumTF](https://github.com/qiubaiying/BYPhoneNumTF)
+代码及Demo下载地址：[BelialPhoneNumTF](https://github.com/qiubaiying/BelialPhoneNumTF)

@@ -3,7 +3,7 @@ layout:     post
 title:      CocoaPods私有仓库的创建
 subtitle:   继续带你创建 CocoaPods 私有有仓库
 date:       2017-03-10
-author:     BY
+author:     Belial
 header-img: img/post-bg-iWatch.jpg
 catalog: true
 tags:
@@ -12,7 +12,7 @@ tags:
     - Git
 ---
 
-> 本文发布于 [BY Blog](http://qiubaiying.github.io)、[简书](http://www.jianshu.com/p/d2d98298b1b8) 转载请保留链接
+> 本文发布于 [Belial Blog](http://qiubaiying.github.io)、[简书](http://www.jianshu.com/p/d2d98298b1b8) 转载请保留链接
 > 
 > 上一篇文章 [《CocoaPods公有仓库的创建》](http://qiubaiying.top/2017/03/08/CocoaPods公有仓库的创建/)
 
@@ -101,7 +101,7 @@ Pod::Spec.new do |s|
   # s.dependency   = "AFNetworking" # 依赖库
   
   # User
-  s.author             = { "BY" => "qiubaiyingios@163.com" } # 作者信息
+  s.author             = { "Belial" => "qiubaiyingios@163.com" } # 作者信息
   s.social_media_url   = "http://qiubaiying.github.io" # 个人主页
 
 end
@@ -190,9 +190,9 @@ end
 	target ‘MyPodTest’ do
 	use_frameworks!
 	
-	pod “BYPhoneNumTF” #公有库
+	pod “BelialPhoneNumTF” #公有库
 	pod ‘MyAdditions’ #我们的私有库
-	pod ‘BYAdditions’ #这是我又添加到版本库中的另一个代码库
+	pod ‘BelialAdditions’ #这是我又添加到版本库中的另一个代码库
 	
 	end
 
