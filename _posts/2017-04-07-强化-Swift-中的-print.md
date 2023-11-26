@@ -1,8 +1,6 @@
 ---
 layout:     post
 title:      强化 swift 中的 print
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
 subtitle:   强化 swift 中的 print 输出函数
 date:       2017-04-07
 author:     Belial
