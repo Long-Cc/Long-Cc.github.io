@@ -69,12 +69,6 @@ tags:
 
 ```
 
-<<<<<<< HEAD
-=======
-### 侧边栏
-
->>>>>>> b61be4db910ebe62a265fdc712b981ccd76eafd3
-
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
 ```
