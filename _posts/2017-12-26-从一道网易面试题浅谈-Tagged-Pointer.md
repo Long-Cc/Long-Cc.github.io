@@ -20,7 +20,7 @@ tags:
 
 上次看了一篇 [《从一道网易面试题浅谈OC线程安全》](https://www.jianshu.com/p/cec2a41aa0e7) 的博客，主要内容是：
 
-作者去网易面试，面试官出了一道面试题：下面代码会发生什么问题？
+面试官出了一道面试题：下面代码会发生什么问题？
 
 ```objc
 @property (nonatomic, strong) NSString *target;
